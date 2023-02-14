@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "title": "Pop Mie",
+      "title": "Pop Mie Babi",
       "price": "5000",
       "id": 1
     },
@@ -49,6 +49,11 @@
       "title": "Mie Keriting",
       "price": "5000",
       "id": 10
+    },
+    {
+      "title": "Telur",
+      "price": "2000",
+      "id": 11
     }
   ]
 }

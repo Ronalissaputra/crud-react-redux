@@ -29,6 +29,7 @@ const AddProducts = () => {
             <div className="w-full space-y-2">
               <label htmlFor="title">Title</label>
               <input
+                required
                 type="text"
                 id="title"
                 value={title}
@@ -39,6 +40,7 @@ const AddProducts = () => {
             <div className="w-full space-y-2">
               <label htmlFor="price">Price</label>
               <input
+                required
                 type="text"
                 id="price"
                 value={price}
