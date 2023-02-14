@@ -18,13 +18,7 @@ const ShowProducts = () => {
 
   return (
     <Layout>
-      <div className="shadow-lg m-20 p-5 space-y-6">
-        <Link
-          to="/add"
-          className="px-8 py-2 bg-green-500 hover:bg-green-800 rounded-sm text-lg font-bold text-white"
-        >
-          Add New
-        </Link>
+      <div className="mx-20 space-y-6">
         <table className="table w-full">
           <thead>
             <tr className="flex justify-between text-left text-xl">
@@ -38,13 +32,11 @@ const ShowProducts = () => {
             {products.map((product, index) => (
               <tr
                 key={product.id}
-                className={`flex justify-between text-lg border-t items-center py-2 ${
-                  index % 2 === 0 ? "bg-slate-200" : ""
-                }`}
+                className="flex justify-between text-lg border-t items-center py-2"
               >
                 <td className="w-[300px]">{index + 1}</td>
                 <td className={`w-full`}>{product.title}</td>
-                <td className="w-full">IDR {product.price},00</td>
+                <td className="w-full">IDR {product.price}</td>
                 <td className="w-[800px] text-white flex space-x-2">
                   <Link
                     to={`/edit/${product.id}`}

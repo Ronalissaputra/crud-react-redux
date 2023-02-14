@@ -1,12 +1,12 @@
 {
   "products": [
     {
-      "title": "Pop Mie Babi",
+      "title": "Pop Mie",
       "price": "5000",
       "id": 1
     },
     {
-      "title": "Mie Goreng",
+      "title": "Mie Goreng Pedas",
       "price": "3500",
       "id": 2
     },
@@ -51,9 +51,39 @@
       "id": 10
     },
     {
-      "title": "Telur",
+      "title": "Surya Batangan",
       "price": "2000",
-      "id": 11
+      "id": 13
+    },
+    {
+      "title": "Mie Bakso",
+      "price": "12000",
+      "id": 14
+    },
+    {
+      "title": "Mie Kriting",
+      "price": "10000",
+      "id": 15
+    },
+    {
+      "title": "Ikan Balado",
+      "price": "5000",
+      "id": 16
+    },
+    {
+      "title": "Ikan Bolu",
+      "price": "5000",
+      "id": 17
+    },
+    {
+      "title": "sambal boncabe",
+      "price": "2000",
+      "id": 19
+    },
+    {
+      "title": "Promag",
+      "price": "1500",
+      "id": 20
     }
   ]
 }

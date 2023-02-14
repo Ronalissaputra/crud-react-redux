@@ -17,6 +17,7 @@ const EditProducts = () => {
   const { id } = useParams();
 
   const product = useSelector((state) => productSelector.selectById(state, id));
+  const { mode } = useSelector((state) => state.darkMode);
 
   useEffect(() => {
     dispacth(getProducts());
@@ -36,7 +37,7 @@ const EditProducts = () => {
   };
   return (
     <Layout>
-      <div className="m-20 shadow-lg p-5">
+      <div className="mx-20 min-h-screen">
         <form onSubmit={editProduct}>
           <div className="space-y-8 text-2xl">
             <div className="w-full space-y-2">
@@ -47,7 +48,9 @@ const EditProducts = () => {
                 id="title"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                className="border-2 border-slate-400 w-full h-10 rounded-md px-2 text-xl"
+                className={`border-2 border-slate-400 w-full h-10 rounded-md px-2 text-xl ${
+                  mode ? "text-black" : "text-black"
+                }`}
               />
             </div>
             <div className="w-full space-y-2">
@@ -58,7 +61,9 @@ const EditProducts = () => {
                 id="price"
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
-                className="border-2 border-slate-400 w-full h-10 rounded-md px-2 text-xl"
+                className={`border-2 border-slate-400 w-full h-10 rounded-md px-2 text-xl ${
+                  mode ? "text-black" : "text-black"
+                }`}
               />
             </div>
             <div>
