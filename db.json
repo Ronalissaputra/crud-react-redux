@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "title": "Pop Mie",
+      "price": "5000",
+      "id": 1
+    },
+    {
+      "title": "Mie Goreng",
+      "price": "3500",
+      "id": 2
+    },
+    {
+      "title": "Mie Coto Makassar",
+      "price": "4000",
+      "id": 3
+    },
+    {
+      "title": "Mie Gelas",
+      "price": "1500",
+      "id": 4
+    },
+    {
+      "title": "Mie Kaldu Ayam",
+      "price": "3000",
+      "id": 5
+    },
+    {
+      "title": "Mie Eko",
+      "price": "1000",
+      "id": 6
+    },
+    {
+      "title": "Inter Mie",
+      "price": "1500",
+      "id": 7
+    },
+    {
+      "title": "Mie Lemonilo",
+      "price": "5000",
+      "id": 8
+    },
+    {
+      "title": "Mie Mega",
+      "price": "1500",
+      "id": 9
+    },
+    {
+      "title": "Mie Keriting",
+      "price": "5000",
+      "id": 10
+    }
+  ]
+}
